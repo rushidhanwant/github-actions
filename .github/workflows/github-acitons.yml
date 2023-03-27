@@ -1,10 +1,10 @@
-name: devnode dev
+name: devnode staging
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ staging ]
   pull_request:
-    branches: [ dev ]
+    branches: [ staging ]
 
 jobs:
   build:
